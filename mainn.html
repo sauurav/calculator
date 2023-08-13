@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculater</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main_body">
+        <div class="display_area" id="display_area"></div>
+        <div class="numpad_area_container">
+        <div class="numpad_area">
+            <button class="trigo_btns" onclick="print_value('Tan&nbsp')">Tan</button>
+            <button class="trigo_btns" onclick="print_value('Cos&nbsp')">Cos</button>
+            <button class="trigo_btns" onclick="print_value('Sin&nbsp')">Sin</button>
+            <button class="clear_all_btn" onclick="to_clear()">AC</button>
+            <button class="delete_single_btn" onclick="delete_single()"><i class="fas fa-backspace backspace"></i></button>
+            <button class="log_btn" id="log_btn1" onclick="print_value('Log&nbsp ')">Log</button>
+            <button class="numbers" onclick="print_value(1)">1</button>
+            <button class="numbers" onclick="print_value(2)">2</button>
+            <button class="numbers" onclick="print_value(3)">3</button>
+            <button class="opration_btn add" onclick="print_value('+')">+</button>
+            <button class="root_btn" onclick="print_value('sqrt&nbsp')"><i class="fa-solid fa-square-root-variable"></i></button>
+            <button class="numbers" onclick="print_value(4)">4</button>
+            <button class="numbers" onclick="print_value(5)">5</button>
+            <button class="numbers" onclick="print_value(6)">6</button>
+            <button class="opration_btn subtract" onclick="print_value('-')">-</button>
+            <button class="square_btn" onclick="print_value('square&nbsp')">Square</button>
+            <button class="numbers" onclick="print_value(7)">7</button>
+            <button class="numbers" onclick="print_value(8)">8</button>
+            <button class="numbers" onclick="print_value(9)">9</button>
+            <button class="opration_btn multiply" onclick="print_value('*')">x</button>
+            <button class="dot_btn" onclick="print_value('.')">.</button><!--left space-->
+            <button class="numbers" onclick="print_value(0)">0</button>
+            <button class="numbers" onclick="print_value('00')">00</button>
+            <button class="equal_btn" value="equal" onclick="equalsto()" >=</button>
+            <button class="opration_btn divide" onclick="print_value('/')">/</button>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

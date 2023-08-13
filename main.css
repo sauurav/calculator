@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding: 0px;
+
+}
+.main_body{
+    height: 90vh;
+    width: 32%;
+    border: 2px solid red;
+    background-color: black;
+    margin-left: 34%;
+    margin-top: 5vh;
+    border-radius: 17px;
+}
+.display_area{
+    height: 10%;
+    width: 80%;
+    margin: 4% 5%;
+    border-radius: 21px;
+    overflow-wrap: break-word;
+    background-image: linear-gradient(#6a6565,#c7e0da,#5e5c5c);
+    padding: 5%;
+    font-size: 7vh;
+    box-shadow: 6px 7px 2px #474545 inset;
+}
+.numpad_area{
+    height: 100%;
+    border-radius: 5%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 16px;
+    column-gap: 16px;
+}
+.numpad_area_container{
+    margin: 11% 5%;
+    height: 60%;
+    padding:3px;
+}
+button{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: black;
+    color: white;
+    box-shadow: 7px 3px 9px 2px #191717, -3px -3px 9px 2px #3e3f3f;
+    border-radius: 7px;
+}
+.opration_btn{
+    color:orange;
+    font-size: 30px;
+}
+.clear_all_btn{
+    color:red;
+}
+.backspace{
+    color:#16a8fb;
+}
